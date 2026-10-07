@@ -222,7 +222,7 @@ function App() {
               >
                 {seatUsers[seat.id]?.user_name}
                 {seatUsers[seat.id]?.user_name && seatUsers[seat.id]?.professor && <br />}
-                {seatUsers[seat.id]?.professor}
+                {seatUsers[seat.id]?.professor && `(${seatUsers[seat.id]?.professor})`}
               </span>
             )}
             </div>
