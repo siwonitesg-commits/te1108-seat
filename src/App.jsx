@@ -243,7 +243,7 @@ function App() {
             alignItems: "flex-start",
             gap: 6,
 
-            zIndex: 2000,
+            zIndex: 1000,
           }}
         >
           <a
@@ -413,7 +413,7 @@ function App() {
             alignItems: "center",
             justifyContent: "center",
 
-            zIndex: 1000,
+            zIndex: 3000,
           }}
         >
           <div
